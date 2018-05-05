@@ -2,11 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/funActivityMainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#51b46d"
     android:padding="50dp"
-    android:id="@+id/funActivityMainLayout"
     tools:context=".FunFactsActivity">
 
     <TextView
@@ -34,6 +34,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@android:color/background_light"
-        android:text="Show another fun fact" />
+        android:text="Show another fun fact"
+        android:textColor="#51b46d" />
 
 </RelativeLayout>
